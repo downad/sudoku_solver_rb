@@ -1,0 +1,48 @@
+muster def
+
+=begin
+## Name 
+			print_grid
+
+## Was macht die Methode?
+			Erzeuge eine Ausgabe auf der Konsole mit dem aktuellen Sudoku 	
+			printcolor = true
+			Dabei werden Startwerte in grün	und gelöster Zellen in blau dargestellt
+
+## access (Methode)
+
+=end
+
+
+		method_name = "initialize"
+		#						initialize(name, text, debug_YesNo)
+		if @myMethod.key?(method_name) == false
+			@myMethod[method_name] = SudokuMethods.new(method_name, "Initialisiere das Spiel", false)
+			version = Array.new
+			version = [ "V1.0.0 - 25.10.2016 Beginn von Ruby-Sudoku-Solver",
+				"V1.0.1 - 16.11.2016 INFO candidates in class-sudoku1x1 hinzugefügt.",
+				"V1.0.2 - 16.11.2016 INFO modified_by in class-Sudoku1x1 hinzugefügt.",
+				"V1.0.4 - 20.11.2016 INFO Klasse Sudoku9x9 in einzelne Dateien aufgeteilt.",
+				"V1.0.5 - 28.11.2016 INFO Klasse Method eingefügt.",
+				"V1.2.0 - 08.12.2016 NEW Versionsystem, Überprüfung aller Methoden",
+			]
+			@myMethod[method_name].set_version(version)
+
+			@myMethod[method_name].set_description(["Initialisiere das Spiel, klassenweite Variablen werden definert."])
+			@myMethod[method_name].set_arg("Keine Übergabewerte")
+			@myMethod[method_name].set_return("Keine Return-Werte")
+			class_var = Array.new
+			class_var = [ "@cell (class Sudoku1x1) - Die Zelle, ein Hash, key = Koordinate.",
+			"@row - ein Hash mit key = Nummer der Reihe",
+			"@col - ein Hash mit key = Nummer der Splate",
+			"@block - ein Hash mit key = Nummer des Feldes",
+			"@range_of_numbers - ein Array der erlaubten Zahlen",
+			]
+			@myMethod[method_name].set_class_var(class_var)
+			
+		else
+			@myMethod[method_name].inc_counter
+		end
+
+		debug_YesNo = @myMethod[method_name].debug_YesNo
+

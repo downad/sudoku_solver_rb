@@ -1,0 +1,11 @@
+Sudoku Solver in Ruby
+
+ V1.0.0 - 24.10.2016 INFO Start des Projekts Solve Sudoku in Ruby
+ V1.0.1 - 16.11.2016 INFO allowed_numbers in class-sudoku1x1 hinzugefügt 
+ V1.0.2 - 16.11.2016 INFO modified_by in class-Sudoku1x1 hinzugefügt. 
+ V1.0.3 - 20.11.2016 INFO Klasse Sudoku9x9 in einzelne Dateien aufgeteilt. 
+ V1.0.4 - 28.11.2016 INFO Klasse Method eingefügt. 
+ V1.0.5 - 16.11.2016 INFO delete_number_in_section hinzugefügt 
+ V1.0.6 - 28.11.2016 INFO unsolved_only liefert einen Array der ungelösten Zellen. 
+ V1.0.7 - 28.11.2016 INFO Flag get_bool hinzugefügt. true liefert nur returnvalue[0] zurück.
+

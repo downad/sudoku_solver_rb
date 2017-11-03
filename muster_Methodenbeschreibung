@@ -1,0 +1,37 @@
+=begin
+  # solved
+  # prüft ob das Spiel gelöst wurde, dazu werden die freien Zellen gezählt 
+  # liefert gelöst = true oder ungelöst = false zurück
+	# 
+  #	@access public ??????
+  # 
+  # Variablen 
+  #	@var  
+  #
+  # @return 
+  #   true, true					->Das Spiel wurde gelöst
+  #   false, zahl				->Das Spiel hat noch zahl offene Zellen
+	#
+	#	@methode_text
+	#				gibt einen Text aus, wird im allgemeinen für return verwendet
+	#
+	#	@debug_method 
+	#				(true / false) gibt Texte / Variable aus	
+	#
+  #
+	# Die verwendeten class Methoden
+	# Ist die Zelle leer?
+	# 	def is_cell_empty(coordinate)
+	# Erzeuge ein Array @numbers_in_section mit allen Zahlen in Reihe, Spalte, Feld  
+	#   def get_numbers_in_section_rcf(coordinate)
+	# Wenn es ein Naked Single gibt, setze es ein
+	#   def set_number_in_cell(coordinate, cell_key)
+	#
+=end
+def Methode
+end
+
+
+
+Nach def end: 3 Zeilen frei
+

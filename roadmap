@@ -1,0 +1,20 @@
+Road-Map
+
+Strategien Bedienung einfacher
+
+solved_by in set_number_in_cell(coordinate, number, solved_by)
+modified_by in delete_number_in_section(a_section, number, modified_by)
+
+Logik-Module fertigmachen
+V1.0 	Naked Single 
+V1.0 	Hidden Single
+V1.1	Naked Pair
+V1.2	Hidden Pair
+v1.2. BLock-Line_interaction
+
+V1.3	Twins
+V1.4	XWing
+
+hidden_subset = 0
+block_line_interaction = 0
+brute_force = 0
